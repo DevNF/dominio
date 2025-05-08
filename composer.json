@@ -1,0 +1,21 @@
+{
+    "name": "nfservice/dominio",
+    "description": "Biblioteca base para comunicaçao com a API da Domínio",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "NFService\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Henrique Ernandes",
+        "email": "rebeloehenrique@hotmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+  }
