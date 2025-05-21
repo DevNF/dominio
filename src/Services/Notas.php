@@ -17,6 +17,8 @@ class Notas
 
     public function envioNota(string $pathNota, bool $boxeFile = false, ?string $pathComplemento = null )
     {
+        $boxeFile = $boxeFile ? 'true' : 'false';
+
         $form = [
             [
                 'name' => 'file[]',
